@@ -9,19 +9,28 @@ namespace FilmesApi.Controllers
     {
         private static List<Filme> filmes = new List<Filme>();
 
+        private static int Id = 0;
+
         [HttpPost]
-        public void AdicionarFilme([FromBody]Filme filme)
+        public void AdicionarFilme([FromBody] Filme filme)
         {
-            if (!string.IsNullOrEmpty(filme.Titulo) &&
-                filme.Titulo.Length <= 500 &&
-                !string.IsNullOrEmpty(filme.Genero) &&
-                filme.Duracao >= 70)
-            {
-                filmes.Add(filme);
-                Console.WriteLine(filme.Titulo);
-                Console.WriteLine(filme.Genero);
-                Console.WriteLine(filme.Duracao);
-            }
+            filme.Id = Id++;
+            filmes.Add(filme);
+            Console.WriteLine(filme.Titulo);
+            Console.WriteLine(filme.Genero);
+            Console.WriteLine(filme.Duracao);
+        }
+
+        [HttpGet]
+        public IEnumerable<Filme> RecuperaFilmes()
+        {
+            return filmes;
+        }
+
+        [HttpGet("{Id}")]
+        public Filme? RecuperaFilmePorId(int Id)
+        {
+            return filmes.FirstOrDefault(filme => filme.Id == Id);
         }
     }
 }

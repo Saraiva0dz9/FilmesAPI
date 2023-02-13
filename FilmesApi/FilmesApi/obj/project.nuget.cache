@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wj/kfcZl0bIlNI6/MlD/lPoalQnFn+neA0cBId34RsAbgwXedJV7Nzgodx/5qktriUPnTBAJgvYBly2gPnXbtw==",
+  "dgSpecHash": "zOMrPT/SOV02+GTtdsq0W6vYw2j9nWu41tUyJeJHvsAiJiJ50o5LxaxnYXSAKO1kuwS2cuegf3Y8zpi75v8BiQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\FilmesApi\\FilmesApi\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\leoga\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\leoga\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\leoga\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\leoga\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\leoga\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\leoga\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
     "C:\\Users\\leoga\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.10\\microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",

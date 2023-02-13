@@ -34,3 +34,5 @@ C:\Dev\FilmesApi\FilmesApi\FilmesApi\bin\Debug\net6.0\Microsoft.Extensions.Cachi
 C:\Dev\FilmesApi\FilmesApi\FilmesApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Dev\FilmesApi\FilmesApi\FilmesApi\bin\Debug\net6.0\MySqlConnector.dll
 C:\Dev\FilmesApi\FilmesApi\FilmesApi\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Dev\FilmesApi\FilmesApi\FilmesApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Dev\FilmesApi\FilmesApi\FilmesApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

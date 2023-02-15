@@ -1,7 +1,7 @@
 -------------------------Api de site de filmes .Net--------------------------------------
 
 Uma Api em .Net para um site de filmes, nessa aplicação ultilizei o MySql como banco de dados,
-a Api segue a metodologia REST para documentação de rotas, dentro ta api temos as rotas de:
+a Api segue a metodologia REST para documentação de rotas, dentro da Api temos as rotas de:
 
 -Adicionar filmes.
 
